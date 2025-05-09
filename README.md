@@ -1,24 +1,26 @@
-# ChromeEdgeCleane# ChromeEdgeCleaner
+# ChromeEdgeCleaner
 
-ChromeEdgeCleaner is a PowerShell script that clears browser clutter from Google Chrome and Microsoft Edge.  
-This includes:
+**PowerShell script to clear browser cache, cookies, history, and temporary files for Google Chrome and Microsoft Edge.**
 
-- Cache
-- Cookies
-- History
-- Temp files
+---
 
-Perfect for shared workstations, kiosk machines, or regular browser hygiene tasks.
+## 🧼 What This Script Does
 
-## Usage
+- Deletes the following data from both browsers:
+  - Cache
+  - Cookies
+  - History
+  - Temporary Files
+  - Code Cache
 
-Run the script in PowerShell with administrator privileges. It targets default user profile paths.  
-You can customize it for other users by changing the `$ChromePath` and `$EdgePath` variables inside the script.
+- Helps free up disk space and resolve browser performance issues.
+- Ensures compatibility with Windows 10/11 and PowerShell 5.1+
 
-> **Note:** Make sure all Chrome or Edge browser sessions are closed before running the script.
+---
 
-## License
+## 🚀 How to Use
 
-MIT
-r
-Automate browser hygiene with this PowerShell script. Clears cache, history, cookies, and temp files from both Chrome and Edge for cleaner, faster sessions.
+1. Open PowerShell as Administrator.
+2. Navigate to the script folder:
+   ```powershell
+   cd C:\Scripts
